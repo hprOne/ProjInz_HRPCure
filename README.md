@@ -19,6 +19,7 @@ pracowników w związku z ustawą dot. RODO. Kolejną sprawą jest zapewnienie c
 naszym celem jest zapewnienie co najmniej 97% czasu bez awarii. Następnym problemem jest autoryzacja 
 użytkowników korzystających. Wstepnie planowane jest wprowadzenie logowania 2FA. 
 
+## RAPORTY SPRINTÓW
 ### Sprint #1
 - Przygotowanie logo oprogramowania (ZREALIZOWANO)
 - Zakup domeny hrpcure.com (ZREALIZOWANO)
