@@ -1,8 +1,8 @@
-CREATE VIEW [dbo].[vw_yes_no] 
-AS
+CREATE VIEW [dbo].[vw_address_type] 
+AS 
 /*
 -----------------------------------------------------------
-Uses for:   Yes or No flag
+Uses for:   Address type
 Called by:  Manually on app
 Date:       24.06.2022
 Creator:    M. Borowiec
@@ -13,7 +13,6 @@ Date        Author          Description
 27.05.2022  M. Borowiec     Creator
 -----------------------------------------------------------
 */
-
-SELECT '1' AS [flag], 'Tak' AS [label]
+SELECT 'Z' AS [adressTypeCode], 'Zamieszkania' AS [adressType]
 UNION ALL
-SELECT '0', 'Nie'
+SELECT 'K', 'Korespondencyjny'
