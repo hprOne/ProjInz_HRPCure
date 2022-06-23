@@ -1,5 +1,5 @@
 CREATE TABLE [dbo].[tb_shifts](
-	[idShift] [int] NOT NULL,
+	[idShift] [int] IDENTITY(1,1) NOT NULL,
 	[idWorker] [int] NOT NULL,
 	[idRoom] [int] NOT NULL,
 	[startDate] [datetime] NOT NULL,

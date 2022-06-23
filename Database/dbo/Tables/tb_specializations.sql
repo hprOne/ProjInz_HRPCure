@@ -1,5 +1,5 @@
 CREATE TABLE [dbo].[tb_specializations](
-	[idSpecialization] [int] NOT NULL,
+	[idSpecialization] [int] IDENTITY(1,1) NOT NULL,
 	[description] [varchar](100) NOT NULL,
 	[idSpecializationParent] [int] NULL,
  CONSTRAINT [PK_tb_specializations] PRIMARY KEY CLUSTERED 

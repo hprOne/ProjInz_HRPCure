@@ -1,5 +1,5 @@
 CREATE TABLE [dbo].[tb_patients](
-	[idPatient] [int] NOT NULL,
+	[idPatient] [int] IDENTITY(1,1) NOT NULL,
 	[firstName] [nvarchar](70) NOT NULL,
 	[secondName] [nvarchar](70) NULL,
 	[lastName] [nvarchar](70) NOT NULL,

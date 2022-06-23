@@ -1,5 +1,5 @@
 CREATE TABLE [dbo].[tb_wards](
-	[idWard] [int] NOT NULL,
+	[idWard] [int] IDENTITY(1,1) NOT NULL,
 	[wardName] [nvarchar](100) NOT NULL,
 	[description] [nvarchar](256) NULL,
  CONSTRAINT [PK_tb_vw_wards] PRIMARY KEY CLUSTERED 

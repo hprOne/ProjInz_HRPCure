@@ -1,5 +1,5 @@
 CREATE TABLE [dbo].[tb_payrolls](
-	[idPayroll] [int] NOT NULL,
+	[idPayroll] [int] IDENTITY(1,1) NOT NULL,
 	[idWorker] [int] NOT NULL,
 	[sumOfHours] [decimal](18, 2) NOT NULL,
 	[bonusPay] [money] NULL,

@@ -1,5 +1,5 @@
 CREATE TABLE [dbo].[tb_rooms](
-	[idRoom] [int] NOT NULL,
+	[idRoom] [int] IDENTITY(1,1) NOT NULL,
 	[idWard] [int] NOT NULL,
 	[floor] [smallint] NOT NULL,
 	[description] [nvarchar](256) NULL,
