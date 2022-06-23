@@ -13,6 +13,6 @@ Date        Author          Description
 27.05.2022  M. Borowiec     Creator
 -----------------------------------------------------------
 */
-SELECT 'Z' AS [adressTypeCode], 'Zamieszkania' AS [adressType]
+SELECT 'Z' AS [addressTypeCode], 'Zamieszkania' AS [addressType]
 UNION ALL
 SELECT 'K', 'Korespondencyjny'
