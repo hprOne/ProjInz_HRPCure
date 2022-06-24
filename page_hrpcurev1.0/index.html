@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>hrpcure</title>
+    <link rel="icon" href="public/svg/logo.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="bg-light">
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top border-bottom shadow">
+        <div class="container">
+            <a href="#" class="navbar-brand" onclick="removeLocationHash()">
+                <logo>
+                    <source srcset="public/svg/logo_min.svg" media="(min-width: 700px)">
+                    <img src="public/svg/logo_min.svg" alt="Logo hrpcure">
+                </logo>
+            </a>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icon-bar top-bar"></span>
+                <span class="icon-bar middle-bar"></span>
+                <span class="icon-bar bottom-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse text-center" id="navbarNav">
+                <div class="navbar-nav ml-auto smooth-scroll" id="main-nav">
+                    <a onclick="moveTo('name1')" class="nav-link nav-item">Panie Tomku</a>
+                    <a onclick="moveTo('name2')" class="nav-link nav-item">będzie</a>
+                    <a onclick="moveTo('name3')" class="nav-link nav-item">5?</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-4" id="main">
+    </div>
+    <div class="buttons">
+        <a href="stronawbudowie.html">
+            <button id="less">Sprawdź grafik</button>
+            <button id="rotate">Sprawdź wypłaty</button>
+            <button id="more">Wyloguj</button>
+    </div>
+</body>
+<footer class="footerhrpCureLight" id="footerhrpCureLight">
+    copyright by hrpCure.com © 2022. All rights reserved.
+</footer>
+</html>
+<script>
+    function moveTo(id)
+    {
+        $('html, body').animate({
+            scrollTop: $("#" + id).offset().top - $(".navbar").outerHeight() 
+        }, function() {
+            $('.navbar-collapse').collapse('hide');
+        })
+    }
+</script>
+<script>
+    function removeLocationHash(){
+    var noHashURL = window.location.href.replace(/#.*$/, '');
+    window.history.replaceState('', document.title, noHashURL) 
+}
+window.addEventListener("popstate", function(event){
+    removeLocationHash();
+});
+window.addEventListener("hashchange", function(event){
+    event.preventDefault();
+    removeLocationHash();
+});
+window.addEventListener("load", function(){
+    removeLocationHash();
+});
+</script>
