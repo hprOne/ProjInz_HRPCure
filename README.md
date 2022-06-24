@@ -13,6 +13,12 @@ pracodawcy jak i sami pacjenci. Dzięki naszemu systemowi pracownicy będa mieć
 dot. grafiku pracy ich oddziału, liczb godzin, które mogą być wykorzystane do odpoczynku, a także 
 będzie sprawdzać czy dany pracownik nie przekracza przepracowanego czasu w miesiącu.
 
+![vizualization](https://raw.githubusercontent.com/hprOne/ProjInz_HRPCure/main/Documents/graphic_wizualizacja.png)
+
+## Wizualizacja:
+
+![page](https://raw.githubusercontent.com/hprOne/ProjInz_HRPCure/main/Documents/graphic_page.png)
+
 ## Główne ryzyko:
 Główny problem, na który trzeba zwrócić szczególną uwagę jest zabezpieczenie danych osobowych 
 pracowników w związku z ustawą dot. RODO. Kolejną sprawą jest zapewnienie ciągłości pracy systemu, 
