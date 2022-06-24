@@ -1,5 +1,7 @@
 # hrpcure.com - Your cure for organization
 
+![hrpCure.com](https://hrpcure.com)
+
 Projekt inżynierski wykonywany przez:
 - hprOne
 - pikachu00XD
