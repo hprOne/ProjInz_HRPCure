@@ -15,7 +15,7 @@ Creator:    M. Borowiec
 Modifications
 -----------------------------------------------------------
 Date        Author          Description
-
+27.05.2022  M. Borowiec     Creator
 -----------------------------------------------------------
 */
 IF(@execDate is null) BEGIN SET @execDate = GETDATE() END
