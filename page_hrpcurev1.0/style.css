@@ -1,0 +1,95 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+body, html {
+    margin: 0;
+    background-image: url("public/background_doctor.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    /*background: rgb(219,112,96);*/
+    /*background: linear-gradient(90deg, rgba(219,112,96,1) 0%, rgba(131,87,87,1) 50%, rgba(218,149,51,1) 100%);*/
+    background-position: center;
+    text-align: center;
+}
+
+.class-naglowek {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 4em;
+    color: white;
+    text-shadow: 0 0 0.5em rgb(66, 66, 66);
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.class-opcje {
+    font-family: 'Questrial', sans-serif;
+    color: rgb(255,255,255);
+    font-size: 1.5em;
+    padding: 1em 0em 0.5em 0;
+    text-shadow: 0.1em 0.1em #333
+}
+
+.class-podpis {
+    font-family: 'Questrial', sans-serif;
+    font-size: 0.8em;
+    color: white;
+    font-weight: 300;
+    line-height: 20pt;
+    margin-bottom: 1em;
+}
+
+logo {
+    margin-top: 0;
+    transition: 1s;
+}
+
+.buttons {
+    height: 3.5em;
+}
+
+button {
+    font-family: 'Questrial', sans-serif;
+    font-size: 2.3em;
+    width: 10em;
+    background-color: transparent;
+    border: 0.2em solid #00b7ff;
+    border-radius: 1.5em;
+    padding: 0.4em 0.4em 0.4em 0.4em;
+    margin-right: 0.7em;
+    margin-left: 0.7em;
+    color: white;
+    background-color: rgba(100, 100, 100, 0.6);
+}
+
+.class-obrazek {
+    text-align: center;
+    max-width: 200%;
+    min-width: 50%;
+}
+
+.footerhrpCureLight {
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.1em;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    padding-top: 1em;
+    width: 100%;
+    height: 3em;
+    background-color: rgba(100, 100, 100, 0.2);
+    transition: 2s;
+    visibility: visible;
+}
+.navbarhrpCureLight {
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.1em;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    padding-top: 1em;
+    width: 100%;
+    height: 3em;
+    background-color: rgba(100, 100, 100, 0.2);
+    transition: 2s;
+    visibility: visible;
+}

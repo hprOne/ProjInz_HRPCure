@@ -1,5 +1,7 @@
 # hrpcure.com - Your cure for organization
 
+[hrpCure.com](https://hrpcure.com)
+
 Projekt inżynierski wykonywany przez:
 - hprOne
 - pikachu00XD
@@ -12,6 +14,12 @@ co powoduje ograniczenie wydajności pracy. W przypadku branży medycznej tracą
 pracodawcy jak i sami pacjenci. Dzięki naszemu systemowi pracownicy będa mieć dostęp do informacji 
 dot. grafiku pracy ich oddziału, liczb godzin, które mogą być wykorzystane do odpoczynku, a także 
 będzie sprawdzać czy dany pracownik nie przekracza przepracowanego czasu w miesiącu.
+
+![vizualization](https://raw.githubusercontent.com/hprOne/ProjInz_HRPCure/main/Documents/graphic_wizualizacja.png)
+
+## Wizualizacja:
+
+![page](https://raw.githubusercontent.com/hprOne/ProjInz_HRPCure/main/Documents/graphic_page.png)
 
 ## Główne ryzyko:
 Główny problem, na który trzeba zwrócić szczególną uwagę jest zabezpieczenie danych osobowych 
